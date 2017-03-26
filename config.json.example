@@ -1,0 +1,6 @@
+// Go to https://ga-dev-tools.appspot.com/account-explorer/ to find out the view ID of
+// the Google Analytics project you wish to connect from the script.
+
+{
+  "viewId": "<Enter the View ID here>"
+}
