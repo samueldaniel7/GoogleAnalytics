@@ -1,6 +1,6 @@
 # GoogleAnalytics
 
-Programmatic way to dump data from Google Analytics using Python.
+It is based on the [Google Aanlytics Python sample](https://developers.google.com/analytics/devguides/reporting/core/v4/quickstart/installed-py). Just wanted a programmatic way to dump data from Google Analytics using Python. 
 
 ## Setup
 
@@ -12,12 +12,12 @@ You need to perform the following steps on the Google console to enable programm
 1. Select **API Manager > Dashboard**, select the **ENABLE API** button and then enter **Google Analytics Reporting API**
 1. Select **Create Credentials**, select **OAuth client ID**.
 1. Select **Configure consent screen** and enter the following:
-  1. **Email address:** <Default selection>
-  1. **Product name show to users:** Google Analytics
-  1. **Homepage URL:** <Leave it blank>
-  1. **Product logo URL:** <leave it blank>
-  1. **Privacy policy URL:** <leave it blank>
-  1. **Terms of service URL:** <leave it blank>
+   1. **Email address:** <Default selection>
+   1. **Product name show to users:** Google Analytics
+   1. **Homepage URL:** <Leave it blank>
+   1. **Product logo URL:** <leave it blank>
+   1. **Privacy policy URL:** <leave it blank>
+   1. **Terms of service URL:** <leave it blank>
 1. On the next page, select **Other** as the application type, and enter Script as the name.
 1. Download the OAuth client secret file as rename it to `client_secrets.json`.
 
